@@ -14,16 +14,16 @@ static const __int64 g_updateSettingsFunc = 0x142A8D7A0;
 //probably contains all graphics settings dunno
 struct ResolutionSettings
 {
-	char Pad000[0x10];					// +0x00
-	unsigned int width;					// +0x10
-	unsigned int height;				// +0x14
-	char Pad018[0x4];					// +0x18
-	unsigned int windowMode;			// +0x1C
-	unsigned int windowRectTop;			// +0x20
+	char Pad000[0x10];                      // +0x00
+	unsigned int width;                     // +0x10
+	unsigned int height;                    // +0x14
+	char Pad018[0x4];                       // +0x18
+	unsigned int windowMode;                // +0x1C
+	unsigned int windowRectTop;             // +0x20
 	unsigned int windowRectLeft;		// +0x24
 	unsigned int windowRectRight;		// +0x28
 	unsigned int windowRectBottom;		// +0x2C
-	char Pad030[0x3D0];					// +0x30
+	char Pad030[0x3D0];                     // +0x30
 };
 
 void printHelp()
